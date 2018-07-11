@@ -1,0 +1,20 @@
+{
+  "name": "re-export-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src/*.js --out-dir=dist",
+    "test": "npm run build && mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.0.0-beta.47",
+    "@babel/core": "^7.0.0-beta.47",
+    "babel-preset-react-native": "^5.0.2",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "react": "^16.4.1"
+  }
+}
